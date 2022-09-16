@@ -4,7 +4,11 @@ cmake_minimum_required(VERSION 3.1)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
-set(CMAKE_BUILD_TYPE RelWithDebInfo)
+
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -s")
+if(MINGW OR WIN32)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mwindows")
+endif(MINGW OR WIN32)
 
 add_definitions ( -Wall )
 

@@ -1,7 +1,2 @@
-Makefile*
-Panini
-panini
 build/
-release/
-*.pro.user
-*.stash
+.vscode/

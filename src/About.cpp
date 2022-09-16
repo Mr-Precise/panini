@@ -24,7 +24,7 @@ pvQtAbout::pvQtAbout( QWidget * parent )
 : QDialog( parent )
 {
     setupUi( this );
-    VersionLabel->setText( QString(VERSION) );
+    VersionLabel->setText( QString("0.73.0") );
     setFixedSize(425, 320);
 }
 

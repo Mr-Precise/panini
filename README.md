@@ -10,7 +10,7 @@ Panini is a visual tool for creating perspective views from panoramic and wide a
 ## Get source code
 
 ```
-git clone https://github.com/lazarus-pkgs/panini
+git clone https://github.com/Mr-Precise/panini
 cd panini
 ```
 
